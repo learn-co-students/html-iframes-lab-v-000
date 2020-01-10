@@ -19,6 +19,5 @@ RSpec.describe 'index.html' do
       expect(iframe.attributes["height"]).to_not be_nil, "No height attribute was found in the iframe"
       expect(iframe.attributes["height"].value).to eq("400px"), "The height attribute should be set to '400px'"
     end
-
   end
 end
